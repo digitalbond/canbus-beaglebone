@@ -23,6 +23,7 @@ sudo sh -c "xzcat /path/to/bone-debian-xxx.img.xz | dd of=/dev/sdX bs=1M"
 The SDCard Image has a very small partition for the rootfs. You are probably going to want to increase this partition in order to have working space on the drive. Follow the instructions at http://www.howtogeek.com/114503/how-to-resize-your-ubuntu-partitions/ to increase the partition size to take advantage of all space available on your SDCard.
 
 ### Install dependencies
+The remaining shell commands should be executed on your beaglebone. Connect via ssh and run:
 ```sh
 apt-get install mercurial
 ```
