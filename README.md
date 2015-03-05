@@ -12,7 +12,7 @@ For our class we purchased:
 Setup instructions for getting a Beaglebone Black ready for CANBus hacking fun
 
 ### Getting started
-Follow the getting started instructions stpes 1-3 on the beagleboard homepage at [beagleboard.org/getting-started](http://beagleboard.org/getting-started)
+Follow the getting started instructions steps 1-3 on the beagleboard homepage at [beagleboard.org/getting-started](http://beagleboard.org/getting-started)
 
 ### (Optional) Boot from SDCard
 We like to boot off of an SDCard rather than the onboard flash. Follow the [Update board with latest software](http://beagleboard.org/getting-started#update) instructions 
