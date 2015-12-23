@@ -29,9 +29,14 @@ apt-get install mercurial
 ```
 
 ### Download and build can-utils
-Make sure your beaglebone has internet access and execute the following commands to build utilities directly on the beagle.
+When you have a recent Debian image for your Beaglebone Black (Debian Jessie 8.x) you can install the can-utils by just downloading the can-utils Debian package:
+```sh
+apt-get install can-utils
 ```
-git clone https://git.gitorious.org/linux-can/can-utils.git
+
+If not make sure your beaglebone has internet access and execute the following commands to build utilities directly on the beagle.
+```
+git clone https://github.com/linux-can/can-utils.git
 cd can-utils
 ./autogen.sh
 ./configure
